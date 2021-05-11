@@ -63,6 +63,30 @@
   font-family: 'DMSans-Bold', sans-serif;
   font-weight: 700;
 }
+%bodoni-400{
+  font-family: 'BodoniModa-VariableFont_opsz', sans;
+  font-weight: 400;
+}
+%monda-400{
+  font-family: 'Monda-Regular', sans-serif;
+  font-weight: 400;
+}
+%montserrat-400{
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-weight: 400;
+}
+%montserrat-500{
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+}
+%montserrat-700{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
+}
+%sn-fran-700{
+  font-family: 'SFNSText-BoldG2';
+  font-weight: 700;
+}
 
 
 @function max($numbers...) {

@@ -1,0 +1,131 @@
+@media (max-width: 1080px){
+  .content{
+    &__box{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+    &__img-logo{
+      margin-bottom: 60px;
+    }
+    &__timer-box{
+      margin-bottom: 60px;
+    }
+       &__logo{
+    margin-right: 0;
+  }
+  }
+  .dws{
+   top: 40%;
+   left: 85%;
+}
+}
+@media (max-width: 720px){
+  .header{
+    &__title{
+      font-size: 78px;
+    }
+  }
+  .footer{
+    &__bottom{
+      flex-direction: column;
+      align-items: center;
+    }
+    &__box-phone{
+      margin-bottom: 30px;
+    }
+  }
+.dws{
+   top: 40%;
+   left: 80%;
+ }
+}
+@media (max-width: 480px){
+  body{
+  &::after{
+   display: none;
+  }
+}
+.header{
+    &__title{
+      padding: 80px 0 40px;
+    }
+}
+  .content{
+    &__timer-box{
+    width: 300px;
+    height: 300px;
+    }
+     &__timer-inner{
+    margin: 0 auto 10px;
+    max-width: 290px;
+   }
+   &__timer-title{
+     font-size: 32px;
+     width: 220px;
+     margin: 50px auto 20px;
+   }
+   &__subtitle{
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    max-width: 1020px;
+    margin-bottom: 60px;
+   }
+    &__subtitle-btm{
+    font-size: 24px;
+   }
+    &__timer-item{
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    span{
+      color: #000;
+      font-size: 32px;
+      line-height: 32px;
+    }
+  }
+    &__img-logo{
+      display: none;
+    }
+  }
+  .dws{
+   top: 40%;
+   left: 75%;
+ }
+}
+@media (max-width: 420px){
+  .header{
+  &__title{
+    font-size: 60px;
+    line-height: 72px;
+    padding: 60px 0 40px;
+  }
+}
+.content{
+  &__subtitle{
+    font-size: 28px;
+  }
+ }
+ .footer{
+   &__span,
+   &__phone{
+    font-size: 28px;
+    margin-right: 10px;
+   }
+   &__social-list{
+     flex-wrap: wrap;
+   }
+ }
+  .dws{
+   top: 40%;
+   left: 70%;
+ }
+}

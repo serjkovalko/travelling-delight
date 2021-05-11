@@ -6,8 +6,28 @@ body{
 body{
  display: flex;
  flex-direction: column;
+ position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    background-image: url('../images/bg-top.png');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 450px;
+    height: 530px;
+    z-index: -1;
+  }
 }
 
 .main{
   flex-grow: 1;
+  background-image: url('../images/bg-body.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.container{
+  max-width: 1500px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
